@@ -6,7 +6,7 @@
 
 header h1{
     color: rgb(14, 70, 39);
-    padding: 1rem;
+    padding: .5rem;
 }
 
 nav{
@@ -30,43 +30,48 @@ main{
     gap: .5rem;
 }
 
-main :nth-child(1){
-    border: 1px solid rgb(201, 195, 195);
+main p{
+    line-height: 1.3rem;
+    font-size: large;
+    color: rgb(73, 72, 72);
 }
+
+
 
 main h3{
     color: rgb(14, 70, 39);
+    padding: .5rem;
+    border: 1px solid rgb(201, 195, 195);
+}
+
+
+
+main img{
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.borderpic{
     padding: 1rem;
     border: 1px solid rgb(201, 195, 195);
 }
 
-main p{
-    padding-left: 3rem;
+.borderpic img{
+    padding: .4rem;
+    display: block;
     border: 1px solid rgb(201, 195, 195);
-    padding: .5rem;
-    width: fit-content;
-
 }
 
-.benzp{
-    height: 62vh;
-}
+.urester{
+    border:  1px solid rgb(201, 195, 195);
+    height: 1rem;
+ 
 
-.fordp{
-    height: 65vh;
-}
-main img{
-    padding-left: 2rem;
-    
-    margin: 1rem;
-    padding: .2rem;
-}
-
-.borderpic{
-    border: 1px solid rgb(201, 195, 195);
 }
 
 footer{
     color: rgb(14, 70, 39);
     text-align: center;
 }
+
